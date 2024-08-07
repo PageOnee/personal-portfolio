@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* Estilos globales */
 :root {
     --color-background-light: #eff0f6;
@@ -13,10 +15,14 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: "Nunito", sans-serif;
-    /* font-family: 'Ailerons', sans-serif; */
+    font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    /* background: url(./../assets/background.jpg); */
+    background: #2A3446;
 }
 
 h1,

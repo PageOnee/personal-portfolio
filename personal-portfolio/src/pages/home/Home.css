@@ -1,0 +1,55 @@
+@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
+
+.height {
+    height: 100vh;
+}
+
+.content-home {
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content {
+    margin-top: 15em;
+    color: #ffff;
+}
+
+.title-page {
+    font-size: 9em;
+    font-family: 'TT Firs Neue Trl', sans-serif;
+    font-weight: bold;
+}
+
+.subtitle-page {
+    font-size: 2em;
+    font-family: 'TT Firs Neue Trl', sans-serif;
+    font-weight: bold;
+}
+
+.button {
+    padding: 20px 30px;
+    border: 1px #ffff solid;
+    border-radius: 30px;
+    background: transparent;
+}
+
+.button span {
+    font-family: 'TT Firs Neue Trl', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffff;
+}
+
+.button:hover {
+    background: #ffff;
+
+}
+
+.button:hover span {
+    /* Aquí defines los estilos que quieres aplicar al span cuando el botón tenga hover */
+    color: #2A3446;
+    transition: .3s;
+}
