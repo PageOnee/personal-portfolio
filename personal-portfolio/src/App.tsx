@@ -3,24 +3,31 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 /// Paginas
 import { Home } from "./pages/home/Home"
-
+import { Projects } from "./pages/projects/Projects"
+import { Contact } from "./pages/contact/Contact"
 function App() {
 
   return (
-    <BrowserRouter>
-      <Routes>
+    <div>
+      <Home />
+      <Projects />
+      <Contact />
+    </div>
 
-        {/* Path ruta por defecto */}
-        <Route path="/" element={<Navigate to="home" />} />
+    // <BrowserRouter>
+    //   <Routes>
 
-        {/* Path de rutas */}
-        <Route path="/home" element={<Home />} />
+    //     {/* Path ruta por defecto */}
+    //     <Route path="/" element={<Navigate to="home" />} />
 
-        {/* Path ruta no predefinida */}
-        <Route path="*" element={<Home />} />
+    //     {/* Path de rutas */}
+    //     <Route path="/home" element={<Home />} />
 
-      </Routes>
-    </BrowserRouter>
+    //     {/* Path ruta no predefinida */}
+    //     <Route path="*" element={<Home />} />
+
+    //   </Routes>
+    // </BrowserRouter>
   )
 }
 

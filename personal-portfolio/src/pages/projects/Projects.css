@@ -1,0 +1,27 @@
+.height {
+    height: 100vh;
+}
+
+.subtitle {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 5em;
+    font-family: 'TT Firs Neue Trl', sans-serif
+}
+
+.text {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 4em;
+
+}
+
+.content {
+    margin-top: 15em;
+    color: #ffff;
+    padding: 0 20em;
+}
+
+.container-content {
+    margin-left: 10em;
+}

@@ -15,6 +15,11 @@
 .content {
     margin-top: 15em;
     color: #ffff;
+    padding: 0 20em;
+}
+
+.container-content {
+    margin-left: 10em;
 }
 
 .title-page {
@@ -31,7 +36,7 @@
 
 .button {
     padding: 20px 30px;
-    border: 1px #ffff solid;
+    border: 2px #ffff solid;
     border-radius: 30px;
     background: transparent;
 }
@@ -52,4 +57,16 @@
     /* Aquí defines los estilos que quieres aplicar al span cuando el botón tenga hover */
     color: #2A3446;
     transition: .3s;
+}
+
+h3 {
+    font-family: 'TT Firs Neue Trl', sans-serif;
+    font-size: 20px;
+}
+
+.btn-social {
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: transparent;
 }

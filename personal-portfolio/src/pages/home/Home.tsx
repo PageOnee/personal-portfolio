@@ -1,6 +1,10 @@
 /// Componentes
 import { Navbar } from "../../components/navbar/Navbar"
 
+/// Iconos 
+
+
+/// Estilos
 import "./Home.css"
 
 // Pagina: Inicio
@@ -15,15 +19,21 @@ export const Home = () => {
                     <Navbar />
 
                     <div className="row">
-                        <div className="col-12 d-flex flex-column align-items-center justify-content-center content">
+                        <div className="col-12 d-flex flex-row align-items-center justify-content-between content">
 
-                            <div className="">
+                            <div className="container-content">
                                 <h2 className="subtitle-page"> Ingeniero de Sistemas </h2>
                                 <h1 className="title-page">
-                                    Maicol Rojas
+                                    <span>Maicol </span>
+                                    <span className="color-sec">Rojas</span>
                                 </h1>
 
-                                <div className="d-flex flex-row">
+                                <h3 className="d-flex flex-column">
+                                    <span>Desarrollador Full Stack con experiencia en el diseño, desarrollo</span>
+                                    <span>e implementación de aplicaciones web</span>
+                                </h3>
+
+                                <div className="d-flex flex-row mt-4">
                                     <button className="button">
                                         <span>Descargar CV</span>
                                     </button>
@@ -33,6 +43,8 @@ export const Home = () => {
                                     </button>
                                 </div>
                             </div>
+
+
 
 
                         </div>
