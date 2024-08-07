@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* Estilos globales */
+/* Definicion colores */
 :root {
-    --color-background-light: #eff0f6;
-    --color-background-dark: #0C2D57;
+    --color-bg: #2A4350;
+    --color-primary: #FFFF;
+    --color-secondary: #F0C94A;
 }
 
+/* Estilos globales */
 * {
     min-height: 0;
     margin: 0;
@@ -21,7 +23,7 @@
 }
 
 body {
-    background: #2A3446;
+    background-color: var(--color-bg);
 }
 
 h1,
