@@ -1,6 +1,7 @@
 /// Paginas
 import { Home } from "./pages/home/Home"
 import { Projects } from "./pages/projects/Projects"
+import { AboutMe } from "./pages/about/AboutMe"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 
       <Home />
       <Projects />
+      <AboutMe />
 
     </div>
 

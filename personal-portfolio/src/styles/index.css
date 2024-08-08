@@ -4,6 +4,7 @@
 /* Definicion colores */
 :root {
     --color-bg: #2A4350;
+    --color-bg-secondary: #345263;
     --color-primary: #FFFF;
     --color-secondary: #F0C94A;
 }
