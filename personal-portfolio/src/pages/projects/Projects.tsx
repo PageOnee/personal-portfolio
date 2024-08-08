@@ -1,27 +1,28 @@
-
+/// Estilos
 import "./Projects.css"
 
+
+// Pagina : Proyectos
 export const Projects = () => {
     return (
+
         <div className='container-fluid'>
 
+            {/* Proyectos */}
             <div className='row height'>
-                <div className='col-12 d-flex flex-column'>
+                <div className='col-12 d-flex flex-column content-projects'>
 
-                    <div className='row'>
-                        <div className='col-12 d-flex flex-row align-items-center justify-content-between content'>
-                            <div className='container-content'>
-                                <h2 className='subtitle'> Proyectos </h2>
-
-                                <div className='text'>
-                                    <p> Los proyectos se encuentran en desarollo </p>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="col-12 d-flex flex-row title-projects">
+                        <h2> Proyectos </h2>
                     </div>
-                </div>
 
+                    <div className="col-12 d-flex flex-row justify-content-center text-temp">
+                        <p className="text-center"> Actualmente, no hay proyectos disponibles en este apartado. ¡Mantente atento para futuras actualizaciones! </p>
+                    </div>
+
+                </div>
             </div>
-        </div>
+
+        </div >
     )
 }

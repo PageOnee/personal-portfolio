@@ -1,27 +1,26 @@
+/* Configuracion altura */
 .height {
     height: 100vh;
 }
 
-.subtitle {
-    color: #ffff;
-    font-weight: bold;
-    font-size: 5em;
-    font-family: 'TT Firs Neue Trl', sans-serif
+.content-projects {
+    margin: 8.6em 0;
+    padding: 0 12%;
 }
 
-.text {
-    color: #ffff;
-    font-weight: bold;
-    font-size: 4em;
-
+.title-projects h2 {
+    font-size: 2.5em;
+    font-family: 'TT Firs Neue Trl', sans-serif;
+    font-weight: 600;
+    color: var(--color-primary);
 }
 
-.content {
-    margin-top: 15em;
-    color: #ffff;
-    padding: 0 20em;
+.text-temp {
+    margin: auto 0;
 }
 
-.container-content {
-    margin-left: 10em;
+.text-temp p {
+    font-size: 1.8em;
+    font-family: 'TT Firs Neue Trl', sans-serif;
+    color: var(--color-primary);
 }

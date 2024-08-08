@@ -9,7 +9,7 @@ import "./Home.css"
 export const Home = () => {
     return (
 
-        <div className="container-fluid ">
+        <div className="container-fluid">
 
             <div className="row height">
                 <div className="col-12 d-flex flex-column">
